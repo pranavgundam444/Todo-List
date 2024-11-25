@@ -1,0 +1,37 @@
+.head {
+    text-align: center;
+}
+.btn {
+    background-color: blue;
+    color: white;
+    height: 25px;
+    width: 50px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.listEl {
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.labelElMargin {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.deleteIcon {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.ddd {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
