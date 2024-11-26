@@ -22,11 +22,15 @@ function onAddTodo() {
     let userInputElement = document.getElementById("userInput");
     let value = userInputElement.value;
     TodosCount = TodosCount + 1;
-    let newTodo = {
-        text: value,
-        id: TodosCount
+    if (value !== "") {
+        let newTodo = {
+            text: value,
+            id: TodosCount
+        }
+        CreateAndAppendTodo(newTodo)
+    } else {
+        alert("Please Enter The Valid Input")
     }
-    CreateAndAppendTodo(newTodo)
 }
 
 btnEl.onclick = function() {
